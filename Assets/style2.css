@@ -8,7 +8,7 @@
     --orange: rgb(255, 81, 0);
     --red: rgba(255, 0, 0, 0.76);
   }
-h2, pre, section{text-align: center; font-family: Monstera Jam; font-size: 30px; color: var(--black);font-weight: bolder;}
+h2, pre, section{text-align: left; font-family: Monstera Jam; font-size: 30px; color: var(--black);font-weight: bolder;}
 h1 {text-align: left; font-family: Monstera Jam; font-size: 40px;font-weight: bolder;}
 nav {text-align: right; font-family: Monstera Jam; font-size: 35px;font-weight: bolder;}
 nav a {color:var(--black);}
@@ -17,4 +17,13 @@ body {
   background-image: url("pink-beach.jpg"); backdrop-filter: blur(10px);background-size: auto;
 
    }
-   img {position: unset;}
+   body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+  
