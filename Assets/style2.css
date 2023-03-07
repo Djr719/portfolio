@@ -34,3 +34,16 @@ body {
   font-style: normal;
   font-display: auto;
 }
+
+@media screen and (max-width: 992px) {
+  h2, h1, pre, section, nav, nav a, body, footer {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1, h2, pre, section, nav, nav a, body, footer pre {
+    width: 100%;
+  
+  }
+}
