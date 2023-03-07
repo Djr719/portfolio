@@ -26,10 +26,11 @@ body {
   height: auto;
   border-radius: 50%;
 }
-@media (max-width: 550px) {
-  p, h2, h1, nav, nav a, a, body, body img { font-size: 16px; }
-}
-
-@media (min-width: 551px) {
-  p, h2, h1, nav, nav a, a, body, body img  { font-size: 32px; }
+@font-face {
+  font-family: 'Monstera Jam';
+  src: url('MonsteraJam.woff2') format('woff2'),
+      url('MonsteraJam.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
 }
