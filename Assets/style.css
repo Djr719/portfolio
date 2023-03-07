@@ -16,4 +16,10 @@ a {color: var(--black)}
 body {
   background-image: url("car-entry-pink-1-1624986404.jpg"); background-size: auto;backdrop-filter: blur(10px);
    }
- footer {}
+   @media (max-width: 550px) {
+    p, h2, h1, nav, nav a, a, body, body img { font-size: 16px; }
+  }
+  
+  @media (min-width: 551px) {
+    p, h2, h1, nav, nav a, a, body, body img  { font-size: 32px; }
+  }
