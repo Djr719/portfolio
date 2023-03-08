@@ -30,7 +30,7 @@ Repository follows best practices for class/id naming conventions, indentation, 
 Repository contains multiple descriptive commit messages.
 Repository contains quality readme with description, screenshot, link to deployed application.
 
-I believe that I satisied most of the requirements. I decided to have links that clicked to other pages since it is going to showcase my portfolio.  I used HTML semantics and tried my best to consolidate the CSS sheets. I was unable to get the HTML files under the HTML folder to link back to the first CSS sheet, so I created a second one. I also added custom font, so I added it to my 'Assets' folder. 
+I believe that I satisied most of the requirements. I decided to have links that clicked to other pages since it is going to showcase my portfolio.  I used HTML semantics and tried my best to consolidate the CSS sheets. I was unable to get the HTML files under the HTML folder to link back to the first CSS sheet, so I created a second one. I also added custom font, so I added it to my 'Assets' folder. I added media queries to the website as well. It was difficult trying to get the layout right on my mobile, but I eventually got everything to fit. 
 
 You can see my deployed website at this link: https://djr719.github.io/portfolio/
 
