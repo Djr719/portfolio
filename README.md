@@ -34,3 +34,4 @@ I believe that I satisied most of the requirements. I decided to have links that
 
 You can see my deployed website at this link: https://djr719.github.io/portfolio/
 
+![Deployed Portfolio](https://user-images.githubusercontent.com/125601940/223862799-6f4ce24a-b72e-4656-ae99-96ce734dbd02.png)
