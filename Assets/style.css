@@ -31,19 +31,6 @@ body {
     padding: 0;
   }
       
-    /* To make all elements center */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-    /* Default Styling */
-    * {margin: 20px auto;
-    padding: 30px;
-    font-size: 30px;
-    font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
-    width: 300px;
-    height: 300px;
-  }
    
   /* For Desktop View */
   @media screen and (min-width: 1024px) {margin: 20px auto;
