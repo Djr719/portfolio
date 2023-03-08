@@ -136,3 +136,12 @@ body {
       background-size: auto; backdrop-filter: blur(10px);
     }
   }
+
+  @media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) nav, h1, h2, a, nav a, body, section, footer {font-size: 20px;
+      width: 400px;
+      height: 400px;
+      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      background-size: auto; backdrop-filter: blur(10px); }
