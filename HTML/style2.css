@@ -36,29 +36,29 @@ font-display: auto;
 
 @media screen and (min-width:1000) {
   h1, h2, section, nav, a, body, footer, p {
-  width: 100%; height: 100%, word-wrap: break-word;
+  width: 100%; height: 100%; word-wrap: break-word; font-weight: bolder;
 }
 }
 
 @media screen and (max-width: 999px) and (min-width: 768px){
   h1, h2, section, nav, a, body, footer, p  {
   width: 100%; 
-  word-wrap: break-word; 
+  word-wrap: break-word; font-weight: bolder;
 
 }
 }
 @media screen and (max-width: 767px) and (min-width: 500px){
   h1, h2, section, nav, a, body, footer, p{
-  width: 100%; word-wrap: break-word; height:100%
+  width: 100%; word-wrap: break-word; height:100%; font-weight: bolder;
 
 }}
 @media screen and (max-width: 500px) and (min-width: 360px){
   h1, h2, section, nav, a, body, footer, p {
-    width: 100%; word-wrap: break-word; height: 100%
+    width: 100%; word-wrap: break-word; height: 100%; font-weight: bolder;
   
   }}
   @media screen and (max-width: 360px) {
     h1, h2, section, nav, a, body, footer, p {
       width: 100%; word-wrap: break-word; height: 100%;
-    
+    font-weight: bolder;
     }}
