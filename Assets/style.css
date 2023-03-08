@@ -75,7 +75,8 @@ body {
   /* For Tablet View */
   @media screen and (min-device-width: 768px)
   and (max-device-width: 1024px) {
-    
+    padding: 20px;
+    font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -86,7 +87,9 @@ body {
   /* For Mobile Portrait View */
   @media screen and (max-device-width: 480px)
   and (orientation: portrait) {
-      width: 200px;
+    padding: 15px;
+    font-size: 15px;  
+    width: 200px;
       height: 200px;
       background-image: url("car-entry-pink-1-1624986404.jpg"); background-size: auto; backdrop-filter: blur(10px);
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -96,6 +99,8 @@ body {
   /* For Mobile Landscape View */
   @media screen and (max-device-width: 640px)
   and (orientation: landscape) {* {
+    padding: 40px;
+    font-size: 20px;
       width: 400px;
       height: 200px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -105,7 +110,8 @@ body {
    
   /* For Mobile Phones Portrait or Landscape View */
   @media screen and (max-device-width: 640px) {
-    * {
+    * { padding: 40px;
+      font-size: 20px;
       width: 400px;
       height: 200px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -116,7 +122,8 @@ body {
   /* For iPhone 4 Portrait or Landscape View */
   @media screen and (min-device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    * {
+    * { padding: 20px;
+      font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -127,7 +134,8 @@ body {
   /* For iPhone 5 Portrait or Landscape View */
   @media (device-height: 568px) and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    * {
+    * { padding: 20px;
+      font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
@@ -138,7 +146,8 @@ body {
   /* For iPhone 6 and 6 plus Portrait or Landscape View */
   @media (min-device-height: 667px) and (min-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    *{
+    *{ padding: 20px;
+      font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
