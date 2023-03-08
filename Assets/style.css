@@ -114,7 +114,7 @@ body {
   }
    
   /* For iPhone 5 Portrait or Landscape View */
-  @media (device-height: 568px) and (device-width: 320px)
+  @media screen and (device-height: 568px) and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2) {
     nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
       font-size: 20px;
@@ -126,7 +126,7 @@ body {
   }
    
   /* For iPhone 6 and 6 plus Portrait or Landscape View */
-  @media (min-device-height: 667px) and (min-device-width: 375px)
+  @media screen and (min-device-height: 667px) and (min-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 3) {
     nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
       font-size: 20px;
@@ -137,7 +137,7 @@ body {
     }
   }
 /* iphone 13 & iphone 13 pro */
-  @media (device-width: 390px) 
+  @media screen and (device-width: 390px) 
   and (device-height: 844px) 
   and (-webkit-device-pixel-ratio: 3) {nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
     font-size: 20px;
