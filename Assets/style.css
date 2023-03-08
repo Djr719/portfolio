@@ -137,8 +137,7 @@ body {
     }
   }
 /* iphone 13 & iphone 13 pro */
-  @media only screen 
-  and (device-width: 390px) 
+  @media (device-width: 390px) 
   and (device-height: 844px) 
   and (-webkit-device-pixel-ratio: 3) {nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
     font-size: 20px;
@@ -146,4 +145,4 @@ body {
     height: 400px;
     font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
     background-size: auto; backdrop-filter: blur(10px);
-  }}
+  } }
