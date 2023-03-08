@@ -52,6 +52,7 @@ body {
     font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
     width: 300px;
     height: 300px;
+    background-size: auto; backdrop-filter: blur(10px);
     }
   
    
@@ -63,6 +64,7 @@ body {
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      background-size: auto; backdrop-filter: blur(10px);
     }
   
    
@@ -73,7 +75,7 @@ body {
     font-size: 15px;  
     width: 200px;
       height: 200px;
-      font-family:(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      font-family:(monstera-jam-font/MonsteraJam-rgZE8.ttf); background-size: auto; backdrop-filter: blur(10px);
     }
   }
    
@@ -84,7 +86,7 @@ body {
     font-size: 20px;
       width: 400px;
       height: 200px;
-      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf); background-size: auto; backdrop-filter: blur(10px);
     }
   }
    
@@ -94,7 +96,8 @@ body {
       font-size: 20px;
       width: 400px;
       height: 200px;
-      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf); 
+      background-size: auto; backdrop-filter: blur(10px);
     }
   }
    
@@ -106,27 +109,30 @@ body {
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      background-size: auto; backdrop-filter: blur(10px);
     }
   }
    
   /* For iPhone 5 Portrait or Landscape View */
   @media (device-height: 568px) and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    nav, h1, h2, pre, section, nav a, a, body { padding: 20px;
+    nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
       font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      background-size: auto; backdrop-filter: blur(10px);
     }
   }
    
   /* For iPhone 6 and 6 plus Portrait or Landscape View */
   @media (min-device-height: 667px) and (min-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    nav, h1, h2, pre, section, nav a, a, body { padding: 20px;
+    nav, h1, h2, pre, section, nav a, a, body, footer { padding: 20px;
       font-size: 20px;
       width: 400px;
       height: 400px;
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      background-size: auto; backdrop-filter: blur(10px);
     }
   }
