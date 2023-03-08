@@ -8,11 +8,8 @@
     --orange: rgb(255, 81, 0);
     --red: rgba(255, 0, 0, 0.76);
   }
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 h2, pre, section{text-align: center; font-family: Monstera Jam; font-size: 30px; color: var(--black);font-weight: bolder;}
 h1 {text-align: left; font-family: Monstera Jam; font-size: 40px;font-weight: bolder;}
 nav {text-align: right; font-family: Monstera Jam; font-size: 35px;font-weight: bolder;}
@@ -28,17 +25,6 @@ body {
     font-weight: normal;
     font-style: oblique;
     font-display: block;
-  }
-
-
-@media screen and (min-width: 1500px) {
-  h2, h1, pre, section, nav, nav a, body, .style1 {
-    width: 50%;
-    text-align: center; 
-    font-family: Monstera Jam; src: url('monstera-jam-font/MonsteraJam-rgZE8.ttf') format('woff2'),
-    url('monstera-jam-font/MonsteraJam-rgZE8.ttf') format('woff');
-    font-size: 30px; color: var(--black);
-    font-weight: bolder;}
   }
   * {
     margin: 0;
@@ -70,7 +56,7 @@ body {
     background-image: url("car-entry-pink-1-1624986404.jpg"); background-size: auto; backdrop-filter: blur(10px);
     
     }
-  }
+  
    
   /* For Tablet View */
   @media screen and (min-device-width: 768px)
@@ -82,23 +68,23 @@ body {
       font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
       background-image: url("car-entry-pink-1-1624986404.jpg"); background-size: auto; backdrop-filter: blur(10px);
     }
-  }
+  
    
   /* For Mobile Portrait View */
   @media screen and (max-device-width: 480px)
-  and (orientation: portrait) {
-    padding: 15px;
+  and (orientation: portrait){ nav, h1, h2, pre, section, nav a, a, body
+    {padding: 15px;
     font-size: 15px;  
     width: 200px;
       height: 200px;
       background-image: url("car-entry-pink-1-1624986404.jpg"); background-size: auto; backdrop-filter: blur(10px);
-      font-family: Monstera Jam; src: url(monstera-jam-font/MonsteraJam-rgZE8.ttf);
+      font-family:(monstera-jam-font/MonsteraJam-rgZE8.ttf);
     }
   }
    
   /* For Mobile Landscape View */
   @media screen and (max-device-width: 640px)
-  and (orientation: landscape) {* {
+  and (orientation: landscape) { nav, h1, h2, pre, section, nav a, a, body {
     padding: 40px;
     font-size: 20px;
       width: 400px;
@@ -109,8 +95,8 @@ body {
   }
    
   /* For Mobile Phones Portrait or Landscape View */
-  @media screen and (max-device-width: 640px) {
-    * { padding: 40px;
+  @media screen and (max-device-width: 640px) {  nav, h1, h2, pre, section, nav a, a, body
+     { padding: 40px;
       font-size: 20px;
       width: 400px;
       height: 200px;
@@ -121,8 +107,8 @@ body {
    
   /* For iPhone 4 Portrait or Landscape View */
   @media screen and (min-device-width: 320px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    * { padding: 20px;
+  and (-webkit-min-device-pixel-ratio: 2) { nav, h1, h2, pre, section, nav a, a, body
+     { padding: 20px;
       font-size: 20px;
       width: 400px;
       height: 400px;
@@ -134,7 +120,7 @@ body {
   /* For iPhone 5 Portrait or Landscape View */
   @media (device-height: 568px) and (device-width: 320px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    * { padding: 20px;
+    nav, h1, h2, pre, section, nav a, a, body { padding: 20px;
       font-size: 20px;
       width: 400px;
       height: 400px;
@@ -146,7 +132,7 @@ body {
   /* For iPhone 6 and 6 plus Portrait or Landscape View */
   @media (min-device-height: 667px) and (min-device-width: 375px)
   and (-webkit-min-device-pixel-ratio: 3) {
-    *{ padding: 20px;
+    nav, h1, h2, pre, section, nav a, a, body { padding: 20px;
       font-size: 20px;
       width: 400px;
       height: 400px;
